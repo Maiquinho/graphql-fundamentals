@@ -8,7 +8,7 @@ type User = {
 };
 
 
-const GET_USER = gql`
+export const GET_USER = gql`
 
   query {
     users {
